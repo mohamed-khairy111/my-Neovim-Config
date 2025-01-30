@@ -4,6 +4,8 @@ lint.linters_by_ft = {
     lua = { "luacheck" },
     haskell = { "hlint" },
     python = { "flake8" },
+    javascript = { "eslint-lsp" },
+    typescript = { "eslint-lsp" },
 }
 
 lint.linters.luacheck.args = {

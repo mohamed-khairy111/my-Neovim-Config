@@ -4,11 +4,11 @@ local options = {
         c_cpp = { "clang_format" },
         c = { "clang-format" },
         cpp = { "clang-format" },
-        ts = { "prettier" },
-        js = { "prettier" },
-        -- go = { "gofumpt", "goimports-reviser", "golines" },
-        -- haskell = { "fourmolu", "stylish-haskell" },
-        -- python = { "isort", "black" },
+        typescript = { "prettier" },
+        javascript = { "prettier" },
+        go = { "gofumpt", "goimports-reviser", "golines" },
+        haskell = { "fourmolu", "stylish-haskell" },
+        python = { "isort", "black" },
     },
 
     formatters = {
